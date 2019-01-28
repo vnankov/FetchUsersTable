@@ -21,6 +21,30 @@
 .App-link {
   color: #61dafb;
 }
+.table-view{
+  border: 2px solid black;
+  padding: 2px;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.column{
+  float: left;
+  padding: 5px;
+}
+.sortTable{
+  text-align: right;
+  margin: 10px;
+}
+.sortTable select{
+  padding: 7px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {
