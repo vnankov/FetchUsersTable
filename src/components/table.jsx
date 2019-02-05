@@ -1,12 +1,13 @@
 import React from 'react'
 import ContactList from './contactList';
-
+import loadingImg from '../images/giphy.gif'
 export default class Table extends React.Component{
     constructor(props){
         super(props)
 
         this.state =  {
-            data : []
+            data : [],
+            loading : true
         }
     }
 
@@ -31,9 +32,10 @@ export default class Table extends React.Component{
     
             // create a new "State" object without mutating 
             // the original State object. 
-            const newState = Object.assign({}, this.state, {
-                data: newContacts
-            });
+            const newState = {...this.state,
+                data: newContacts,
+                loading:false
+            };
     
             // store the new state object in the component's state
             this.setState(newState);
@@ -45,7 +47,11 @@ export default class Table extends React.Component{
     render(){
         return(
             <div >
-            <ContactList contacts={this.state.data}/>
+                {(!this.state.loading) ? 
+                <ContactList contacts={this.state.data} options = "default"/>
+                :
+                <img src={loadingImg} alt=""/>
+                }
             </div>
         )
     }

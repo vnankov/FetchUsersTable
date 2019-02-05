@@ -9,12 +9,11 @@ import PhoneNumberColumn from './tableColums/phoneNumberColumn';
 import WebsiteColumn from './tableColums/websiteColumn';
 
 export default function ContactList(props){
-    console.log(props)
-
+    let { options } = props;
     return(
         <div className="table-view">
             <h1>Table content View</h1>
-            <SortBy />
+            <SortBy options = {options}/>
             <div className="column">
                 <h3>Name</h3>
                 {props.contacts.map(items => 

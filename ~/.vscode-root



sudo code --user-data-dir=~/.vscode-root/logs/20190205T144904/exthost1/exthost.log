@@ -1,0 +1,68 @@
+[2019-02-05 14:49:06.869] [exthost] [info] extension host started
+[2019-02-05 14:49:06.876] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-02-05 14:49:06.876] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-02-05 14:49:06.879] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-02-05 14:49:06.879] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-02-05 14:49:06.894] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-02-05 14:49:06.894] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-02-05 14:49:06.966] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-02-05 14:49:06.966] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-02-05 14:49:06.970] [exthost] [info] eager extensions activated
+[2019-02-05 14:49:21.189] [exthost] [info] extension host started
+[2019-02-05 14:49:21.196] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-02-05 14:49:21.196] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-02-05 14:49:21.199] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-02-05 14:49:21.199] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-02-05 14:49:21.213] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-02-05 14:49:21.213] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-02-05 14:49:21.281] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-02-05 14:49:21.281] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-02-05 14:49:21.286] [exthost] [info] eager extensions activated
+[2019-02-05 14:49:28.322] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascriptreact"}
+[2019-02-05 14:49:28.322] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-02-05 14:50:02.317] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-02-05 14:50:02.317] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-02-05 14:54:52.869] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-02-05 14:54:52.870] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-02-05 14:54:53.001] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-02-05 14:54:53.001] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-02-05 15:01:01.833] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-02-05 15:01:01.833] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-02-05 15:01:37.132] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-02-05 15:01:37.132] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-02-05 15:01:37.823] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-02-05 15:01:37.823] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-02-05 15:01:41.943] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-02-05 15:01:41.943] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-02-05 15:01:42.114] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-02-05 15:01:42.114] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-02-05 15:01:42.341] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-02-05 15:01:42.341] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-02-05 15:03:16.922] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-02-05 15:03:16.922] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-02-05 15:03:18.108] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-02-05 15:03:18.109] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
+[2019-02-05 15:03:19.637] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-02-05 15:03:19.637] [exthost] [error] TypeError: Cannot read property 'displayParts' of undefined
+	at w.resolveCompletionItem (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:99172)
+	at <anonymous>
