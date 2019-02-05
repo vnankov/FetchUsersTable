@@ -1,14 +1,19 @@
 import React from 'react'
 import ContactList from './contactList';
 import loadingImg from '../images/giphy.gif'
+import SortArray from './functions/sort'
+
 export default class Table extends React.Component{
     constructor(props){
         super(props)
 
         this.state =  {
             data : [],
-            loading : true
+            defaultData : [],
+            loading : true,
+            value : 'default'
         }
+        this.selectOnChange = this.selectOnChange.bind(this);
     }
 
     componentDidMount(){
@@ -34,6 +39,7 @@ export default class Table extends React.Component{
             // the original State object. 
             const newState = {...this.state,
                 data: newContacts,
+                defaultData: newContacts,
                 loading:false
             };
     
@@ -43,14 +49,28 @@ export default class Table extends React.Component{
         .catch(error => console.log(error))
     }
 
+    selectOnChange(){
+        if(this.state.value === 'default'){
+            this.setState({value : 'name'})
+            this.state.data.sort((a,b)=>{
+                if(a.name < b.name) {return -1;}
+                if(a.name > b.name) {return 1;}
+            })
+            SortArray(this.state.data)
+        }
+        else{
+            this.setState({value : 'default'})
+
+        }
+    }
 
     render(){
         return(
             <div >
                 {(!this.state.loading) ? 
-                <ContactList contacts={this.state.data} options = "default"/>
+                    <ContactList contacts={this.state.data}  options = {this.selectOnChange} value={this.state.value}/>
                 :
-                <img src={loadingImg} alt=""/>
+                    <img src={loadingImg} alt=""/>
                 }
             </div>
         )
